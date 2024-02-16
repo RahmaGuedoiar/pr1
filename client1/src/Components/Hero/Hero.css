@@ -1,0 +1,132 @@
+/* Hero.css */
+
+.hero {
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    margin-top: 20px;
+    
+}
+
+.hero-left {
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 100px;
+
+}
+
+.Arrivals {
+    color: #fff;
+    /* Change the text color as needed */
+    padding: 8px;
+
+}
+
+.hand-hand-icon {
+    display: flex;
+    align-items: center;
+}
+.hand-hand-icon p{
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.hand {
+    display: flex;
+    align-items: center;
+}
+
+.hand p {
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.hand img {
+    width: 40px;
+    /* Adjust the width as needed */
+    height: 40px;
+    /* Adjust the height as needed */
+}
+
+.latestcollection {
+    width:100px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.latestcollection button {
+    background-color:blue;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-latest-btn img {
+    width: 100%;
+    /* Make sure the image takes up the full width of its container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow effect */
+}
+
+
+
+
+/* .hero {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+
+.hero-left {
+  width: 60%;
+  background-color: aqua;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.hero-right {
+  width: 40%;
+  background-color: blue;
+}
+
+.hero-latest-btn img {
+  width: 100%;
+}
+
+.hand-hand-icon {
+  margin: 0;
+}
+
+.hand-hand-icon p {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.hand {
+  display: flex;
+  margin: 0;
+}
+
+.Arrivals {
+  margin: 0;
+}
+
+.latestcollection {
+  background-color: indianred;
+}*/

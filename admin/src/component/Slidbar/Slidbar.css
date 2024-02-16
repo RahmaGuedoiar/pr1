@@ -1,0 +1,38 @@
+.slidbar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap:20px;
+    width: 100%;
+    max-width: 250px;
+    height: 100vh;
+    background: white;
+}
+.slidbar-item{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0px 20px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: #f6f6f6;
+    gap:20px;
+    cursor: pointer;
+
+}
+@media(max-width:800px){
+.slidbar{
+  
+    flex-direction: row;
+    padding-top: 30px 0px;
+    justify-content: center;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    
+}
+.slidbar-item{
+    margin: 0;
+
+}
+}
